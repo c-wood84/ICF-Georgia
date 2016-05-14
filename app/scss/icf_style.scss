@@ -1,0 +1,1225 @@
+@import "../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+
+
+// @import "breakpoint";
+
+$mainBlue: #223497;
+$white: #ffffff;
+$secOrange: #fa9d2c;
+
+body { font-family: arial, helvetica;
+    	   font-size: 16px;}
+
+.img-responsive { display: block;
+    			  height: auto;
+    			  max-width: 100%;
+    			  margin-bottom: 110px;
+    			}
+
+ .media-object { border-radius: 5px;
+    			 border: 2px solid #223497;
+    			 margin: 0 auto;
+				}
+
+.event-photo  { margin: 0 auto;
+
+}
+
+ #mobileHead img { max-width: 100%;
+ 				   height: auto;
+ 				 }
+
+/******** Navigation Start ***********/
+#mobileNav { border:0;
+			 height: 40px;
+			 background: $mainBlue;
+
+
+		a#pull { display:block;
+				 background:$mainBlue;
+				 position: relative;
+				 width: 100%;
+				 text-indent:-999999px;
+				 height: 35px;
+		}
+
+		a#pull:after { content:"";
+					   width: 35px;
+					   height: 35px;
+					   display: inline-block;
+					   background:url('../img/nav-icon.png') no-repeat;
+					   position: absolute;
+					   top:9px;
+					   right: 7px;
+		}
+	}
+
+		.mobilenavbar { display:none;
+				        margin: 0;
+				        padding:0;
+				        background: $mainBlue;
+				        position: relative;
+
+			li { width:100%;
+				 list-style: none;
+				 border-bottom:1px solid $white;
+				 display: block;
+				 padding:5px 6px;
+				 z-index: 10;
+
+			a { color:$white; }
+
+			}
+}
+/********** Word-Press Content **************/
+
+.row	{
+
+		.container	{ text-align:center;
+					}
+
+		h1 { font-size: 3.8em;
+    		 color: #223497;
+    		 margin: 15px 0 10px 0;
+    		 padding: 25px 0 0 0;
+    		 font-weight: bolder;
+    		 text-transform: uppercase;
+			}
+
+		.line { width: 50%;
+    			margin: 0 auto;
+    			padding-bottom: 15px;
+    			border-top: 2px solid #989da3;
+				}
+
+	.wordpress-wrap { margin:45px 0;
+
+					h4 { font-size: 1.5em;
+		    			 color: #223497;
+		    			 text-transform: uppercase;
+		    			 font-weight: bold;
+		    			 padding: 0 0 5px 0px;
+		    			 text-align: center;
+		    			 font-style: italic;
+						}
+
+					.mission {
+
+							li 	{ padding: 5px 25px;
+			    				  text-align: justify;
+			    				  background: url('../img/right-arrow.png') no-repeat 0 0.4em;
+			    				  list-style: none;
+			    				  margin: 10px 5px 0 5px;
+								}
+							}
+
+						.content-left { margin-top:75px; }
+
+						.content-right	{ margin-top:135px; }
+				}
+
+		#memberFeatures	{ height:auto;
+								p {text-align:justify;
+									padding:8px;
+								}
+								h3 { font-size:1.2em;
+									color: $secOrange;
+									text-transform: uppercase;
+									padding: 5px 0;
+									text-align: center;
+									}
+
+					.BenefitActions   { width:80%;
+								        height: 270px;
+								     	margin: 0px 5px 0px 30px;
+								     	padding: 3px 0;
+										}
+
+					}
+
+					.testimonial-wrap { padding:15px 0 0 0;
+					h4	{ font-size: 1.5em;
+		    			 	  color: #223497;
+		    			 	  text-transform: uppercase;
+		    			 	  font-weight: bold;
+		    			 	  padding: 0 0 5px 0px;
+		    			 	  text-align: center;
+		    			 	  font-style: italic;
+							}
+					}
+
+				.testimonial	{ padding:15px 0 0;
+						
+						.headshot	{ width: 93px;
+								      float: left;
+								      border-radius: 5%;
+								      padding: 2px;
+								      border: 2px solid #223497;
+								      margin: 0 12px;
+								}
+						.quote		{ width: auto;
+    								  overflow: hidden;
+    								  text-align: left;
+    								  p { font-family: arial, helvetica;
+    									  font-size: 12px !important;
+    									  text-align: justify;
+    								  	}
+    							.name { font-size:18px;
+    									margin: 0 0 9px;
+    								}
+    							.divider	{ width: 50px;
+    										  height: 1px;
+    										  margin: 3px 0 10px;
+    										  background-color: #b0babf;
+    										  opacity: .5;
+    										}
+
+						}
+
+				}
+
+				}
+
+
+.edu-meet-icon	{ display: block;
+				  width: 112px;
+				  height: 88px;
+				  text-indent: -99999px;
+				  background:url(../img/member-Icons/EducationMeet-Icon.png) no-repeat bottom;
+				  margin: 0 auto;
+				  text-align: center;
+}
+
+.edu-meet-icon:hover	{ background-position:  top;
+}
+
+
+.pro-credit-icon	{ display: block;
+				  	  width: 85px;
+				  	  height: 84px;
+				  	  text-indent: -99999px;
+				  	  background:url(../img/member-Icons/ProfessionalCredibility-Icon.png) no-repeat bottom;
+				  	  margin: 0 auto;
+				  	  text-align: center;
+}
+
+.pro-credit-icon:hover	{ background-position:  top;
+}
+
+.coach-profile-icon	{ display: block;
+				  	  width: 85px;
+				  	  height: 85px;
+				  	  text-indent: -99999px;
+				  	  background:url(../img/member-Icons/CoachingProfile-Icon.png) no-repeat bottom;
+				  	  margin: 0 auto;
+				  	  text-align: center;
+}
+
+.coach-profile-icon:hover	{ background-position:  top;
+}	
+
+.coach-network-icon	{ display: block;
+					  width: 85px;
+					  height: 87px;
+					  text-indent: -99999px;
+					  background:url(../img/member-Icons/CoachNetwork-Icon.png) no-repeat bottom;
+					  margin: 0 auto;
+					  text-align: center;
+}
+.coach-network-icon:hover	{ background-position:  top;
+	
+}
+
+.earn-cceu-icon	{display: block;
+				 width: 63px;
+				 height: 85px;
+				 text-indent: -99999px;
+				 background:url(../img/member-Icons/earnCCU-Icon.png) no-repeat bottom;
+				 margin: 0 auto;
+				 text-align: center;
+}
+
+
+
+.earn-cceu-icon:hover	{ background-position:  top;
+}
+
+.buss-grow-icon	{display: block;
+				 width: 93px;
+				 height: 91px;
+				 text-indent: -99999px;
+				 background:url(../img/member-Icons/bussiessGrowth-Icon.png) no-repeat bottom;
+				 margin: 0 auto;
+				 text-align: center;
+}
+
+
+.buss-grow-icon:hover	{ background-position:  top;
+}
+
+.lead-opp-icon	{display: block;
+				 width: 75px;
+				 height: 88px;
+				 text-indent: -99999px;
+				 background:url(../img/member-Icons/leadershipOpp-Icon.png) no-repeat bottom;
+				 margin: 0 auto;
+				 text-align: center;
+}
+
+
+.lead-opp-icon:hover	{ background-position:  top;
+}
+
+.oca-meet-icon	{display: block;
+				 width: 75px;
+				 height: 88px;
+				 text-indent: -99999px;
+				 background:url(../img/member-Icons/ocaMeeting-Icon.png) no-repeat bottom;
+				 margin: 0 auto;
+				 text-align: center;
+}
+
+
+.oca-meet-icon:hover	{ background-position:  top;
+}
+
+.discount-partner-icon	{display: block;
+						 width: 85px;
+						 height: 86px;
+						 text-indent: -99999px;
+						 background:url(../img/member-Icons/discountedPartners-Icon.png) no-repeat bottom;
+						 margin: 0 auto;
+						 text-align: center;
+}
+
+
+.discount-partner-icon:hover	{ background-position:  top;
+}
+
+.boardPopOver	{
+		li 	{ list-style: none;
+    		  display: inline-block;
+    		  margin: 0 5px;
+    		  padding: 3px;}
+
+}
+
+.thumbnail {
+    display: block;
+    padding: 2px;
+    margin-bottom: 0px;
+    line-height: 1.42857143;
+    background-color: #ffffff;
+    border: 1px solid #223497;
+    border-radius: 4px;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.popover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1010;
+  display: none;
+  max-width: 276px;
+  padding: 1px;
+  text-align: left;
+  background-color: #ffffff;
+  background-clip: padding-box;
+  border: 1px solid #223497;
+/*  border: 1px solid rgba(0, 0, 0, 0.2);
+*/  border-radius: 6px;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  white-space: normal;
+}
+
+.popover-title {
+  margin: 0 auto;
+  padding: 8px 14px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 18px;
+  background-color: #faf3cc;
+  border-bottom: 1px solid #223497;
+  border-radius: 5px 5px 0 0;
+  text-align: center;
+}
+.popover-content {
+  padding: 9px 14px;
+}
+
+.popover.top > .arrow:after {
+  content: " ";
+  bottom: 1px;
+  margin-left: -10px;
+  border-bottom-width: 0;
+  border-top-color: #223497;
+}
+
+.tooltip.bottom .tooltip-arrow {
+  top: 0;
+  left: 50%;
+  margin-left: -5px;
+  border-bottom-color: #000000; /* black */
+  border-width: 0 5px 5px;
+  border:1px solid red;
+}	
+
+
+.sub-heading {
+    font-size: 1.8em;
+    color: #223497;
+    text-transform: uppercase;
+    padding: 0 0 5px 25px;
+    text-align: center;
+}
+
+.partners  {
+		ul { width: 80%;
+    		 margin: 0 auto;
+    		 padding: 0 0 0 0px;
+
+		}
+
+		li { display: inline-block;
+    		 margin: 0 20px;
+
+		}
+    
+}
+
+
+
+/******** Footer Starts ***********/
+.newsletter-footer { width: 100%;
+    						 background: #223497;
+    						 padding-bottom: 20px;
+    						 margin: 0 auto;
+    						 text-align: center;
+    						 color: #fff;
+					}
+
+		.btn-newsletter { color: #fff;
+    					  background-color: #a0a6cd;
+    					  border-color: #fff;
+    					  text-decoration: none;
+    					  font-weight: bold;
+					}
+
+		.footer-bottom { width: 100%;
+    					 background: #b7b7b7;
+    					 padding-bottom: 20px;
+    					 border-top: 5px solid #fa9d2c;
+    					 font-size: 14px;
+    					 text-align: center;
+    					 width: 100%;
+    					 padding: 5px 0;
+    					 color: #fff;
+
+    						a { padding: 0 25px;
+    							color: #fff;
+									}
+
+							p { text-align:center; }
+						}
+
+						.social-footer { width: 100%;
+    									 height: auto;
+    									 margin: 0 auto;
+    									 padding: 5px 0;
+
+    								  li { display: inline-block;
+    									   margin: 0 5px 0 0;
+    									   padding: 5px 0;
+    									}
+
+    								.facebook-footer	{ display: block;
+					  									  width: 42px;
+					  									  height: 38px;
+					  									  text-indent: -99999px;
+					  									  background:url(../img/social-Icons/footer-fb-icon.png) no-repeat bottom;
+													}
+									.twitter-footer	{ display: block;
+				  									  width: 42px;
+				  									  height: 38px;
+				  									  text-indent: -99999px;
+				  									  background:url(../img/social-Icons/footer-twitter-icon.png) no-repeat bottom;
+												}
+									.linked-footer	{ display: block;
+				  									  width: 42px;
+				  									  height: 38px;
+				  									  text-indent: -99999px;
+				  									  background:url(../img/social-Icons/footer-linkin-icon.png) no-repeat bottom;
+				  									  cursor: pointer;
+				  								}
+									.email-footer	{ display: block;
+				  					  				  width: 42px;
+				  					  				  height: 38px;
+				  					  				  text-indent: -99999px;
+				  					  				  background:url(../img/social-Icons/footer-email-icon.png) no-repeat bottom;
+				  								}
+
+    								}
+
+
+#contactForm {
+min-height: 20px;
+padding: 19px;
+margin-bottom: 20px;
+background-color: #f5f5f5;
+border: 1px solid #e3e3e3;
+border-radius: 4px;
+-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.05);
+box-shadow: inset 0 1px 1px rgba(0,0,0,0.05);
+width: 90%;
+margin: 0 auto;
+
+}
+
+legend {
+display: block;
+width: 100%;
+padding: 0;
+margin-bottom: 20px;
+font-size: 21px;
+line-height: inherit;
+color: #333;
+border: 0;
+border-bottom: 1px solid #e5e5e5;
+}
+
+.controls	{ margin-bottom: 10px;
+
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555555;
+  background-color: #ffffff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.form-control:focus {
+  border-color: #223497;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+.form-control::-moz-placeholder {
+  color: #999999;
+  opacity: 1;
+}
+.form-control:-ms-input-placeholder {
+  color: #999999;
+}
+.form-control::-webkit-input-placeholder {
+  color: #999999;
+}
+
+.alert-info {
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+  color: #31708f;
+}
+
+.alert {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.alert h4 {
+  margin-top: 0;
+  color: inherit;
+}
+.alert .alert-link {
+  font-weight: bold;
+}
+.alert > p,
+.alert > ul {
+  margin-bottom: 0;
+}
+.alert > p + p {
+  margin-top: 5px;
+}
+
+
+.alert-success {
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  color: #3c763d;
+}
+
+.alert-danger {
+  background-color: #f2dede;
+  border-color: #ebccd1;
+  color: #a94442;
+}
+
+
+/* Buttons Submit */
+.btn-submit {
+  color: #ffffff;
+  background-color: #223497;
+  border-color: #357ebd;
+}
+.btn-submit:hover,
+.btn-submit:focus,
+.btn-submit:active,
+.btn-submit.active,
+.open .dropdown-toggle.btn-submit {
+  color: #fff;
+  background: transparent;
+  border-color: #223497;
+  color: #223497;
+}
+.btn-submit:active,
+.btn-submit.active,
+.open .dropdown-toggle.btn-submit {
+  background-image: none;
+}
+
+.btn-submit .badge {
+  color: #428bca;
+  background-color: #ffffff;
+}
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width:768px) { 
+
+body { font-family: arial, helvetica;
+    	   font-size: 16px;}
+
+/********* Jumbotron Top *******************/
+#billboardTop { width:100%;
+				height: 400px;
+				background:url('http://www.icfgeorgia.org/img/carousel-1A.jpg') no-repeat center;
+				background-size:cover;
+
+		.hero-caption	{ top:3%;
+						  z-index: 10;
+						  padding-top:20px;
+						  padding-bottom:20px;
+						  text-align: left;
+						  float: right;
+						  margin-right: 50px;
+						  margin-top: 100px;
+						  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+
+							h1 { font-size:4.3em;
+								 font-weight: bolder;
+								 color: $mainBlue;
+								 text-align: right;
+								}
+
+							h4	{ font-size:1.7em;
+								  font-weight: normal;
+								  color: $mainBlue;
+								  text-align: right;
+								}
+						}
+				}
+
+/********* Header *******************/
+#mainHead { width:100%;
+			background: $white;
+			padding:10px 0;
+
+			#logo { width:364px;
+					height: 105px;
+					float: left;
+					margin: 2px 0 0 20px;
+					}
+
+			#right-head { width:45%;
+						  float: right;
+						  margin: 0 0 0 0;
+
+					.sec-links { height:25px;
+							   	 font-weight: bold;
+							   	 float: right;
+    							 width: 75%;
+    							 margin-right: 25px;
+
+							 .last { border:0;}
+
+							 li { list-style: none;
+							 	  display: inline;
+							 	  float: right;
+							 	  padding: 0 10px;
+							 	  margin: 0;
+							 	  border-left:1px solid #000;
+
+							 a { color:#000;
+							 	 text-decoration: none;
+							 	}
+							}
+				}
+			}
+		}
+
+.social-icons { height:55px;
+				width: 67%;
+				margin: 10px 0px 10px 0;
+				float: right;
+
+					li { list-style: none;
+						 display:inline;
+						 float:left;
+						 margin:0 5px;
+						 }
+
+				}
+
+.FacebookLink { display: block;
+    			width: 50px;
+    			height: 53px;
+    			text-indent: -99999px;
+    			background: url(../img/social-Icons/top-fb-icon.png) no-repeat bottom;
+					}
+
+.FacebookLink:hover	{ background-position:  top;
+									}
+
+.TwitterLink { display: block;
+    		   width: 50px;
+    		   height: 53px;
+    		   text-indent: -99999px;
+    		   background: url(../img/social-Icons/top-twitter-icon.png) bottom;
+			}
+
+.TwitterLink:hover	{ background-position:  top;
+									}
+
+.LinkedLink { display: block;
+    		  width: 50px;
+    		  height: 53px;
+    		  text-indent: -99999px;
+    		  background: url(../img/social-Icons/top-linkin-icon.png) bottom;
+						}
+
+.LinkedLink:hover	{ background-position:  top;
+									}
+
+.EmailLink { display: block;
+    		 width: 50px;
+    		 height: 53px;
+    		 text-indent: -99999px;
+    		 background: url(../img/social-Icons/top-email-icon.png) bottom;
+						}
+
+.EmailLink:hover	{ background-position:  top;
+									}
+
+
+
+/******** Navigation  ***********/
+// #stickyNav { border:0;
+// 			 height: 40px;
+// 			 background: $mainBlue;
+
+// 		#navContain { 
+
+// 		}
+// 		a#pull { display:block;
+// 				 background:$mainBlue;
+// 				 position: relative;
+// 				 width: 100%;
+// 				 text-indent:-999999px;
+// 				 height: 35px;
+// 		}
+
+// 		a#pull:after { content:"";
+// 					   width: 35px;
+// 					   height: 35px;
+// 					   display: inline-block;
+// 					   background:url('../img/nav-icon.png') no-repeat;
+// 					   position: absolute;
+// 					   top:9px;
+// 					   right: 7px;
+// 		}
+// 	}
+
+// 		.navbar { display:none;
+// 				  margin: 0;
+// 				  padding:0;
+// 				  background: $mainBlue;
+
+// 			li { width:100%;
+// 				 list-style: none;
+// 				 border-bottom:1px solid $white;
+// 				 display: block;
+// 				 padding:5px 6px;
+
+// 			a { color:$white; }
+
+// 			}
+// }
+
+/********** Word-Press Content **************/
+.row	{
+
+		.container	{ text-align:center;
+					}
+
+		h1 { font-size: 3.8em;
+    		 color: #223497;
+    		 margin: 15px 0 10px 0;
+    		 padding: 25px 0 0 0;
+    		 font-weight: bolder;
+    		 text-transform: uppercase;
+			}
+
+		.line { width: 50%;
+    			margin: 0 auto;
+    			padding-bottom: 15px;
+    			border-top: 2px solid #989da3;
+				}
+		
+
+	.wordpress-wrap { margin:45px 0;
+
+					h4 { font-size: 1.5em;
+	    				 color: #223497;
+	    				 text-transform: uppercase;
+	    				 font-weight: bold;
+	    				 padding: 0 0 5px 0px;
+	    				 text-align: center;
+	    				 font-style: italic;
+						}
+
+					.mission {
+							li 	{ padding: 5px 25px;
+		    					  text-align: justify;
+		    					  background: url('../img/right-arrow.png') no-repeat 0 0.4em;
+		    					  list-style: none;
+		    					  margin: 25px 25px 0 45px;
+								}
+							}
+					}
+
+			#memberFeatures	{ 
+								
+					.BenefitActions   { width: 45%;
+								        height: 270px;
+								     	margin: 8px 5px 8px 25px;
+								     	padding: 8px 0;
+										}
+
+					}
+		}
+/********** Footer **************/
+
+}
+
+ /* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+body { font-family: arial, helvetica;
+    	   font-size: 16px;}
+
+
+.top-arrow { width: 100%;
+    		 padding: 10px 0;
+    		 height: auto;
+    		 position: fixed;
+    		 z-index: 10001;
+    		 bottom: 0;
+
+    			h2 { width: 100%;
+    		 		 margin: 0 0 0 0px;
+    		 		 padding: 5px 25px;
+    				}
+
+    	.arrow-btn { color: #fff;
+    				 background-color: #989da3;
+    				 border-color: #fff;
+    				 text-decoration: none;
+    				 font-weight: bold;
+    				 font-size: 18px;
+				}
+			}
+
+/********* Jumbotron Top *******************/
+#billboardTop { width:100%;
+				height: 400px;
+				background:url('http://www.icfgeorgia.org/img/carousel-1A.jpg') no-repeat center;
+				background-size:cover;
+
+		.hero-caption	{ top:3%;
+						  z-index: 10;
+						  padding-top:20px;
+						  padding-bottom:20px;
+						  text-align: left;
+						  float: right;
+						  margin-right: 50px;
+						  margin-top: 100px;
+						  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+
+							h1 { font-size:4.3em;
+								 font-weight: bolder;
+								 color: $mainBlue;
+								 text-align: right;
+								}
+
+							h4	{ font-size:1.7em;
+								  font-weight: normal;
+								  color: $mainBlue;
+								  text-align: right;
+								}
+						}
+				}
+
+/********* Header *******************/
+#mainHead { width:100%;
+			background: $white;
+			padding:10px 0;
+
+			#logo { width:364px;
+					height: 105px;
+					float: left;
+					margin: 2px 0 0 20px;
+					}
+
+			#right-head { width:45%;
+						  float: right;
+						  margin: 0 0 0 0;
+
+					.sec-links { height:25px;
+							   	 font-weight: bold;
+							   	 float: right;
+    							 width: 75%;
+    							 margin-right: 25px;
+
+							 .last { border:0;}
+
+							 li { list-style: none;
+							 	  display: inline;
+							 	  float: right;
+							 	  padding: 0 10px;
+							 	  margin: 0;
+							 	  border-left:1px solid #000;
+
+							 a { color:#000;
+							 	 text-decoration: none;
+							 	}
+							}
+				}
+			}
+		}
+
+.social-icons { height:55px;
+				width: 67%;
+				margin: 10px 0px 10px 0;
+				float: right;
+
+					li { list-style: none;
+						 display:inline;
+						 float:left;
+						 margin:0 5px;
+						 }
+
+				}
+
+.FacebookLink { display: block;
+    			width: 50px;
+    			height: 53px;
+    			text-indent: -99999px;
+    			background: url(../img/social-Icons/top-fb-icon.png) no-repeat bottom;
+					}
+
+.FacebookLink:hover	{ background-position:  top;
+									}
+
+.TwitterLink { display: block;
+    		   width: 50px;
+    		   height: 53px;
+    		   text-indent: -99999px;
+    		   background: url(../img/social-Icons/top-twitter-icon.png) bottom;
+			}
+
+.TwitterLink:hover	{ background-position:  top;
+									}
+
+.LinkedLink { display: block;
+    		  width: 50px;
+    		  height: 53px;
+    		  text-indent: -99999px;
+    		  background: url(../img/social-Icons/top-linkin-icon.png) bottom;
+						}
+
+.LinkedLink:hover	{ background-position:  top;
+									}
+
+.EmailLink { display: block;
+    		 width: 50px;
+    		 height: 53px;
+    		 text-indent: -99999px;
+    		 background: url(../img/social-Icons/top-email-icon.png) bottom;
+						}
+
+.EmailLink:hover	{ background-position:  top;
+									}
+			
+
+	#stickyNav	{ width:100%;
+				  background: $mainBlue;
+				  min-height: 52px;
+				  height: 52px;
+
+				  a#pull { display:none;}
+
+				  	  }
+
+		#navContain { width:820px;
+					  margin: 0 auto;
+		}
+
+			
+
+				.navbar li { display:inline-block;
+					 float: left;
+					 font-weight: bold;
+					 text-align: center;
+					 padding:14px 20px 15px 20px;
+					 line-height: 1.4em;
+					 font-size: 17px;
+					 margin-top:-1px;
+
+				  }
+
+				 .navbar a { color: $white;
+					text-decoration: none;
+						}
+
+				.navbar > li:hover { background: $secOrange;
+						 }
+
+
+				.sticky { position: fixed;
+			  			  top:0;
+			  			  z-index: 10;
+						}
+/********** Word-Press Content **************/
+
+.row	{
+
+		.container	{ text-align:center;
+					}
+
+		h1 { font-size: 3.8em;
+    		 color: #223497;
+    		 margin: 15px 0 10px 0;
+    		 padding: 25px 0 0 0;
+    		 font-weight: bolder;
+    		 text-transform: uppercase;
+			}
+
+		.line { width: 50%;
+    			margin: 0 auto;
+    			padding-bottom: 15px;
+    			border-top: 2px solid #989da3;
+				}
+
+	.wordpress-wrap { margin:45px 0;
+
+					h4 { font-size: 1.5em;
+		    			 color: #223497;
+		    			 text-transform: uppercase;
+		    			 font-weight: bold;
+		    			 padding: 0 0 5px 0px;
+		    			 text-align: center;
+		    			 font-style: italic;
+						}
+
+					.mission {
+
+							li 	{ padding: 5px 25px;
+			    				  text-align: justify;
+			    				  background: url('../img/right-arrow.png') no-repeat 0 0.4em;
+			    				  list-style: none;
+			    				  margin: 25px 25px 0 45px;
+								}
+							}
+					}
+
+			#memberFeatures	{ 
+								
+					.BenefitActions   { width: 30%;
+								        height: 270px;
+								     	margin: 8px 5px 8px 25px;
+								     	padding: 8px 0;
+										}
+
+					}
+
+		.testimonial-wrap {
+					h4	{ font-size: 1.5em;
+		    			 	  color: #223497;
+		    			 	  text-transform: uppercase;
+		    			 	  font-weight: bold;
+		    			 	  padding: 0 0 5px 0px;
+		    			 	  text-align: center;
+		    			 	  font-style: italic;
+							}
+					}
+
+				.testimonial	{ padding:15px 0 0;
+						
+						.headshot	{ width: 93px;
+								      float: left;
+								      border-radius: 5%;
+								      padding: 2px;
+								      border: 2px solid #223497;
+								      margin: 0 12px;
+								}
+						.quote		{ width: auto;
+    								  overflow: hidden;
+    								  text-align: left;
+    								  p { font-family: arial, helvetica;
+    									  font-size: 12px !important;
+    									  text-align: justify;
+    								  	}
+    							.name { font-size:18px;
+    									margin: 0 0 9px;
+    								}
+    							.divider	{ width: 50px;
+    										  height: 1px;
+    										  margin: 3px 0 10px;
+    										  background-color: #b0babf;
+    										  opacity: .5;
+    										}
+
+						}
+
+				}
+		}
+
+
+/********** Footer **************/
+#footerImg	{ background:url('http://www.icfgeorgia.org/img/footerimgV2.jpg') no-repeat center;
+			  width: 100%;
+			  height: 420px;
+			}
+}
+
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	body { font-family: arial, helvetica;
+    	   font-size: 16px;}
+
+
+
+/********* Header *******************/
+    			#stickyNav	{ width:100%;
+				  			  background: $mainBlue;
+				  			  min-height: 52px;
+				  			  height: 52px;
+
+				  			  li.active { background: $secOrange;}
+				  	  	}
+
+				#navContain { width:820px;
+					  		  margin: 0 auto;
+						}
+
+				.navbar { 
+						li { display:inline-block;
+					 		 float: left;
+					 		 font-weight: bold;
+					 		 text-align: center;
+					 		 padding:14px 20px 15px 20px;
+					 		 line-height: 1.4em;
+					 		 font-size: 17px;
+					 		 margin-top:-1px;
+				 		 }
+
+				  		a { color: $white;
+							text-decoration: none;
+						}
+					}
+
+				.navbar > li:hover, li:focus { background: $secOrange;
+						 }
+				
+
+				#pull { display:none;}
+
+				.sticky { position: fixed;
+			  			  top:0;
+					}
+
+
+
+/********** Word-Press Content **************/
+
+.row	{
+
+		.container	{ text-align:center;
+					}
+
+		h1 { font-size: 3.8em;
+    		 color: #223497;
+    		 margin: 15px 0 10px 0;
+    		 padding: 25px 0 0 0;
+    		 font-weight: bolder;
+    		 text-transform: uppercase;
+			}
+
+		.line { width: 50%;
+    			margin: 0 auto;
+    			padding-bottom: 15px;
+    			border-top: 2px solid #989da3;
+				}
+
+	.wordpress-wrap { margin:45px 0;
+
+					h4 { font-size: 1.5em;
+		    			 color: #223497;
+		    			 text-transform: uppercase;
+		    			 font-weight: bold;
+		    			 padding: 0 0 5px 0px;
+		    			 text-align: center;
+		    			 font-style: italic;
+						}
+
+					.mission {
+
+							li 	{ padding: 5px 25px;
+			    				  text-align: justify;
+			    				  background: url('../img/right-arrow.png') no-repeat 0 0.4em;
+			    				  list-style: none;
+			    				  margin: 25px 25px 0 45px;
+								}
+							}
+
+						.content-left { margin-top:75px; }
+
+						.content-right	{ margin-top:135px; }
+					}
+	}
+
+
+/********** Footer **************/				
+
+
+
+
+
+	
+
+}
